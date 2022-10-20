@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> antiSocial app </title>
+
+    <script src="https://kit.fontawesome.com/1a6c38b4ee.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <div class="logo">
+                <h1>antiSocial</h1>
+            </div>
+
+            <div class="search-bar">
+                <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Search for creators, inspirations, and projects">
+            </div>
+
+            <div class="create">
+                <label class="btn btn-primary" for="create-post">Create</label>
+                <img src="./profile.jpg" class="profile-picture" alt="profile-picture">
+            </div>
+    
+        </div>
+    </nav>
+
+    <!--################## MAIN  ######################################## -->
+    <main>
+        <div class="container">
+            <div class="left">
+                <a class="profile">
+                    <div class="profile-picture">
+                        <img src="./profile.jpg" class="" alt="">
+                    </div>
+
+                    <div class="handle">
+                        <h4> 0day </h4>
+                        <p class="text-muted">@inth3wild</p>
+                    </div>
+                </a>
+                
+                <!-- SIDEBAR -->
+                <div class="sidebar">
+                    <a  class="sidebar-item active"> <span><i class="fa-sharp fa-solid fa-house"></i></span> <h3>Home</h3> </a>
+                    <a  class="sidebar-item"> <span><i class="fa-sharp fa-solid fa-compass"></i></span> <h3>Explore</h3> </a>
+                    <a  class="sidebar-item" id="notifications"> 
+                        <span><i class="fa-sharp fa-solid fa-bell"> <small class="alert-counter">9+</small> </i> </span>
+                          
+                         <h3>Notifications</h3> 
+
+                         <!-- Notification Popup -->
+                        <div class="notification-popup">
+                            <div class="notification-item"> 
+                                <div class="profile-picture">
+                                    <img src="./profile.jpg" alt="">
+                                </div>
+
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> accepted your friend request
+                                    <small class="text-muted">2 DAYS AGO </small>
+                                </div>
+                            </div>
+
+                            <div class="notification-item">
+                                <div class="profile-picture">
+                                    <img src="./profile.jpg" alt="">
+                                </div>
+
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> commented on your post
+                                    <small class="text-muted">2 DAYS AGO </small>
+                                </div>
+                            </div>
+
+                            <div class="notification-item">
+                                <div class="profile-picture">
+                                    <img src="./profile.jpg" alt="">
+                                </div>
+
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> liked your post
+                                    <small class="text-muted">2 DAYS AGO </small>
+                                </div>
+                            </div>
+
+                            <div class="notification-item">
+                                <div class="profile-picture">
+                                    <img src="./profile.jpg" alt="">
+                                </div>
+
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> commented on a post you are tagged in
+                                    <small class="text-muted">2 DAYS AGO </small>
+                                </div>
+                            </div>
+
+                            <div class="notification-item">
+                                <div class="profile-picture">
+                                    <img src="./profile.jpg" alt="">
+                                </div>
+
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> commented on your post
+                                    <small class="text-muted">2 DAYS AGO </small>
+                                </div>
+                            </div>
+
+                            <div class="notification-item">
+                                <div class="profile-picture">
+                                    <img src="./profile.jpg" alt="">
+                                </div>
+
+                                <div class="notification-body">
+                                    <b>Keke Benjamin</b> commented on a post you are tagged in
+                                    <small class="text-muted">2 DAYS AGO </small>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                    <a class="sidebar-item" id="messages-notifications"> 
+                        <span>
+                            <i class="fa-sharp fa-solid fa-envelope"> 
+                                <small class="notifications-count alert-counter"> 6 </small> 
+                            </i>
+                        </span>  <h3>Message</h3> 
+                    </a>
+                    <a class="sidebar-item"> <span><i class="fa-sharp fa-solid fa-bookmark"></i></span> <h3>Bookmarks</h3> </a>
+                    <a class="sidebar-item"> <span><i class="fa-sharp fa-solid fa-chart-line"></i></span> <h3>Analytics</h3> </a>
+                    <a class="sidebar-item"> <span><i class="fa-sharp fa-solid fa-palette"></i></span> <h3>Theme</h3> </a>
+                    <a class="sidebar-item"> <span><i class="fa-sharp fa-solid fa-gear"></i></span> <h3>Settings</h3> </a>
+                </div>
+
+                <label for="create-post" class="btn btn-primary">Create Post</label>
+            </div>
+            
+            <!-- MIDDLE -->
+            <div class="middle">
+                <!-- Stories -->
+                <div class="stories">
+                    
+                    <div class="story">       
+                        <div class="profile-picture">
+                            <img src="./profile.jpg" alt="">
+                        </div>
+                        <p class="story-caption">Your Story</p>
+                        </div>
+
+                    <div class="story">                        
+                        <div class="profile-picture">
+                            <img src="./profile.jpg" alt="">
+                        </div>
+                        <p class="story-caption">Your Story</p>
+                    </div>
+
+                    <div class="story">                        
+                        <div class="profile-picture">
+                            <img src="./profile.jpg" alt="">
+                        </div>
+                        <p class="story-caption">Your Story</p>
+                    </div>
+
+                    <div class="story">                        
+                        <div class="profile-picture">
+                            <img src="./profile.jpg" alt="">
+                        </div>
+                        <p class="story-caption">Your Story</p>
+                    </div>
+
+                    <div class="story">                        
+                        <div class="profile-picture">
+                            <img src="./profile.jpg" alt="">
+                        </div>
+                        <p class="story-caption">Your Story</p>
+                    </div>
+
+                    <div class="story">                        
+                        <div class="profile-picture">
+                            <img src="./profile.jpg" alt="">
+                        </div>
+                        <p class="story-caption">Your Story</p>
+                    </div>
+                </div>
+
+                <!-- Post -->
+                <form class="create-post">
+                    <div class="profile-picture">
+                        <img src="./profile.jpg" alt="">
+                    </div>
+                    <input type="text" id="create-post" placeholder="What's on your mind, Diana?">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+                
+                <!-- Posts -->
+                <div class="posts">
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <img src="./profile.jpg" class="profile-picture" alt="">
+                            </div>
+                            <div class="post-header-content">
+                                    <h3> Lana Rose </h3>
+                                    <small> Dubai 15 MINUTES AGO </small>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="post-body">
+                            <img src="./day1.jpg" alt="">
+                        </div>
+                        <div class="post-footer">
+                            <div class="footer-icons">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <i class="fa-solid fa-handshake"></i>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+
+                            <div class="footer-content">
+                                <div class="footer-profile-images">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <div>
+                                        <p>Liked by <strong>Ernest Achiever</strong> and <strong>2,204 others</strong> </p>
+                                    </div>
+                                </div>
+                                <p>
+                                    <strong>Lana Rose</strong> Lorem ipsum dolor sit quisqam eius. #lifestyle
+                                </p>
+                                <small class="text-muted">
+                                    View all 277 comments
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <img src="./profile.jpg" class="profile-picture" alt="">
+                            </div>
+                            <div class="post-header-content">
+                                <p>
+                                    <h3> Lana Rose </h3>
+                                    <small> Dubai 15 MINUTES AGO </small>
+                                </p>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="post-body">
+                            <img src="./day1.jpg" alt="">
+                        </div>
+                        <div class="post-footer">
+                            <div class="footer-icons">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <i class="fa-solid fa-handshake"></i>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+
+                            <div class="footer-content">
+                                <div class="footer-profile-images">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <div>
+                                        <p>Liked by <strong>Ernest Achiever</strong> and <strong>2,204 others</strong> </p>
+                                    </div>
+                                </div>
+                                <p>
+                                    <strong>Lana Rose</strong> Lorem ipsum dolor sit quisqam eius. #lifestyle
+                                </p>
+                                <small>
+                                    View all 277 comments
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post">
+                        <div class="post-header">
+                            <div>
+                                <img src="./profile.jpg" class="profile-picture" alt="">
+                            </div>
+                            <div class="post-header-content">
+                                <p>
+                                    <h3> Lana Rose </h3>
+                                    <small> Dubai 15 MINUTES AGO </small>
+                                </p>
+                            </div>
+                            <i class="fa-solid fa-ellipsis"></i>
+                        </div>
+                        <div class="post-body">
+                            <img src="./day1.jpg" alt="">
+                        </div>
+                        <div class="post-footer">
+                            <div class="footer-icons">
+                                <i class="fa-regular fa-heart"></i>
+                                <i class="fa-regular fa-comment-dots"></i>
+                                <i class="fa-solid fa-handshake"></i>
+                                <i class="fa-regular fa-bookmark"></i>
+                            </div>
+
+                            <div class="footer-content">
+                                <div class="footer-profile-images">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <img src="./profile.jpg" class="middle-profile-picture" alt="">
+                                    <div>
+                                        <p>Liked by <strong>Ernest Achiever</strong> and <strong>2,204 others</strong> </p>
+                                    </div>
+                                </div>
+                                <p>
+                                    <strong>Lana Rose</strong> Lorem ipsum dolor sit quisqam eius. #lifestyle
+                                </p>
+                                <small>
+                                    View all 277 comments
+                                </small>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="right">
+                <div class="messages">
+                    <div class="messages-header">
+                        <h4>Messages</h4><span><i class="fa-regular fa-pen-to-square"></i></span>
+                    </div>
+
+                    <div class="search-bar">
+                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+                        <input type="search" name="" id="message-search" placeholder="Search messages">
+                    </div>
+
+                    <div class="message-types">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(2)</h6>
+                    </div>
+
+                    <!-- MESSAGE -->
+                    <div class="message">
+                        <img src="./profile.jpg" alt="" class="profile-picture">
+
+                        <div class="message-body">
+                            <h5>Craven Moorehead</h5>
+                            <p class="text-muted"> Just woke up bruh </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <img src="./profile.jpg" alt="" class="profile-picture">
+                        <div class="online"></div>
+
+                        <div class="message-body">
+                            <h5>Pat Myaz</h5>
+                            <p class="text-muted"> Just woke up bruh </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <img src="./profile.jpg" alt="" class="profile-picture">
+
+                        <div class="message-body">
+                            <h5>Hugh Jass</h5>
+                            <p class="text-muted"> Just woke up bruh </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <img src="./profile.jpg" alt="" class="profile-picture">
+
+                        <div class="message-body">
+                            <h5>Jack Meehof</h5>
+                            <p class="text-muted"> Just woke up bruh </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <img src="./profile.jpg" alt="" class="profile-picture">
+
+                        <div class="message-body">
+                            <h5>Fondelle Mabols</h5>
+                            <p class="text-muted"> Just woke up bruh </p>
+                        </div>
+                    </div>
+                    <div class="message">
+                        <img src="./profile.jpg" alt="" class="profile-picture">
+                        <div class="online"></div>
+
+                        <div class="message-body">
+                            <h5>Nunya Business</h5>
+                            <p class="text-muted"> Just woke up bruh </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- REQUESTS -->
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+
+                    <div class="request">
+                        <div class="info">
+                            <div>
+                                <img src="./profile.jpg" alt="" class="profile-picture">
+                            </div>
+                            <div>
+                                <h5>Moe Lester</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn btn-danger">Decline</button>
+                        </div>
+
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div>
+                                <img src="./profile.jpg" alt="" class="profile-picture">
+                            </div>
+                            <div>
+                                <h5>Stella Virgin</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn btn-danger">Decline</button>
+                        </div>
+
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div>
+                                <img src="./profile.jpg" alt="" class="profile-picture">
+                            </div>
+                            <div>
+                                <h5>Joe Mama</h5>
+                                <p class="text-muted">8 mutual friends</p>
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn btn-danger">Decline</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!--========================================================== THEME CUSTOMIZATION ========================================  -->
+    <!-- <div class="customize-theme-modal" style="display: absolute"> -->
+    <div class="customize-theme-modal" id="theme-modal">
+        <div class="card">
+
+            <h2> Customize your view </h2>
+            <p class="text-muted">Manage your font size, color and background. </p>
+
+            <!-- FONT SIZES -->
+            <div class="font-size-picker">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!-- COLORS -->
+            <div class="color-picker">
+                <h4>Color</h4>
+                <div>
+                    <div class="choose-color">
+                        <span class="color-1 active"></span>
+                        <span class="color-2"></span>
+                        <span class="color-3"></span>
+                        <span class="color-4"></span>
+                        <span class="color-5"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BACKGROUND COLORS -->
+            <div class="background-picker">
+                <h4>Background</h4>
+                <div class="color-buttons">
+                        <div class="light-bg active">
+                            <span></span>
+                            <strong> Light </strong>
+                        </div>
+
+                        <div class="dim-bg">
+                            <span></span> <strong> Dim </strong>
+                        </div>
+
+                        <div class="lights-out-bg">
+                            <span></span> <strong>Lights Out</strong> 
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT BABY!! -->
+    <script src="./index.js"></script>
+</body>
+</html>
